@@ -38,19 +38,19 @@ export default function RecipeForm({ onAddRecipe }: RecipeFormProps) {
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6 mb-8 border-2 border-pink-200">
+    <div className="bg-white rounded-lg shadow-lg p-6 mb-8 border-2 border-rose-200">
       <div className="flex items-center justify-center mb-4">
         <img 
-          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGV0bjBkZjVkM3B3MzFhNGVkNDZkMzFkNGVkNDZkMzFkNGVkNDZkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2Je66zG6mAAZxgqI/giphy.gif" 
-          alt="Cute cooking bear"
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGV0bjBkZjVkM3B3MzFhNGVkNDZkMzFkNGVkNDZkMzFkNGVkNDZkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26FLgGTPUDH6UGAbm/giphy.gif" 
+          alt="Cute cartoon cooking bear"
           className="w-16 h-16 rounded-full mr-3"
         />
-        <h2 className="text-2xl font-bold text-gray-800">Add New Recipe</h2>
+        <h2 className="text-2xl font-bold text-slate-700">Add New Recipe</h2>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label className="block text-gray-700 font-semibold mb-2">
+          <label className="block text-slate-600 font-semibold mb-2">
             🍽️ Dish Name
           </label>
           <input
@@ -58,35 +58,35 @@ export default function RecipeForm({ onAddRecipe }: RecipeFormProps) {
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Enter dish name..."
-            className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
+            className="w-full p-3 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-rose-300"
             required
             disabled={isSubmitting}
           />
         </div>
 
         <div>
-          <label className="block text-gray-700 font-semibold mb-2">
+          <label className="block text-slate-600 font-semibold mb-2">
             🥕 Ingredients
           </label>
           <textarea
             value={ingredients}
             onChange={(e) => setIngredients(e.target.value)}
             placeholder="List ingredients (one per line or comma-separated)..."
-            className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 h-24 resize-none"
+            className="w-full p-3 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-rose-300 h-24 resize-none"
             required
             disabled={isSubmitting}
           />
         </div>
 
         <div>
-          <label className="block text-gray-700 font-semibold mb-2">
+          <label className="block text-slate-600 font-semibold mb-2">
             📝 Recipe Instructions
           </label>
           <textarea
             value={instructions}
             onChange={(e) => setInstructions(e.target.value)}
             placeholder="Write the step-by-step instructions..."
-            className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 h-32 resize-none"
+            className="w-full p-3 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-rose-300 h-32 resize-none"
             required
             disabled={isSubmitting}
           />
@@ -95,7 +95,7 @@ export default function RecipeForm({ onAddRecipe }: RecipeFormProps) {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-green-500 hover:bg-green-600 disabled:bg-gray-400 text-white font-semibold py-3 rounded-lg transition-colors duration-200 shadow-md"
+          className="w-full bg-green-300 hover:bg-green-400 disabled:bg-slate-300 text-white font-semibold py-3 rounded-lg transition-colors duration-200 shadow-md"
         >
           {isSubmitting ? '🔄 Saving...' : '🍳 Save Recipe'}
         </button>

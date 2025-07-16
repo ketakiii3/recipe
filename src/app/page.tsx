@@ -99,20 +99,20 @@ export default function Home() {
   )
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 to-orange-50">
+    <div className="min-h-screen bg-gradient-to-br from-rose-50 to-orange-50">
       <main className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">
+          <h1 className="text-4xl font-bold text-slate-700 mb-2">
             🍳 Cutesy Recipe App 🍳
           </h1>
-          <p className="text-gray-600">Store and search your favorite recipes</p>
+          <p className="text-slate-600">Store and search your favorite recipes</p>
           
-          {/* Cute cooking animal GIF */}
+          {/* Cute cartoon cooking animal GIF */}
           <div className="mt-4">
             <img 
               src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGV0bjBkZjVkM3B3MzFhNGVkNDZkMzFkNGVkNDZkMzFkNGVkNDZkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btNa0RUYa5E7iiQ/giphy.gif" 
-              alt="Cute cooking cat"
+              alt="Cute cooking cartoon animal"
               className="mx-auto w-24 h-24 rounded-full shadow-lg"
             />
           </div>
@@ -120,7 +120,7 @@ export default function Home() {
 
         {/* Error Message */}
         {error && (
-          <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
+          <div className="bg-red-50 border border-red-200 text-red-600 px-4 py-3 rounded mb-4">
             {error}
           </div>
         )}
@@ -132,7 +132,7 @@ export default function Home() {
         <div className="text-center mb-8">
           <button
             onClick={() => setShowForm(!showForm)}
-            className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition-colors duration-200"
+            className="bg-rose-300 hover:bg-rose-400 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition-colors duration-200"
           >
             {showForm ? '✖️ Cancel' : '➕ Add New Recipe'}
           </button>
@@ -144,8 +144,8 @@ export default function Home() {
         {/* Loading State */}
         {loading ? (
           <div className="text-center py-12">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-pink-500 mx-auto mb-4"></div>
-            <p className="text-gray-600">Loading recipes...</p>
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-rose-300 mx-auto mb-4"></div>
+            <p className="text-slate-600">Loading recipes...</p>
           </div>
         ) : (
           /* Recipe List */

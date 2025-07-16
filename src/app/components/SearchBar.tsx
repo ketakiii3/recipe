@@ -1,4 +1,3 @@
-// src/app/components/SearchBar.tsx
 'use client'
 
 interface SearchBarProps {
@@ -8,23 +7,24 @@ interface SearchBarProps {
 
 export default function SearchBar({ searchTerm, setSearchTerm }: SearchBarProps) {
   return (
-    <div className="relative mb-8">
-      <div className="flex items-center justify-center mb-4">
-        <img 
-          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGV0bjBkZjVkM3B3MzFhNGVkNDZkMzFkNGVkNDZkMzFkNGVkNDZkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgG50Fb7Mi0prBC/giphy.gif" 
-          alt="Cute cooking rabbit"
-          className="w-12 h-12 rounded-full mr-2"
+    <div className="mb-8">
+      <div className="relative max-w-md mx-auto">
+        <input
+          type="text"
+          placeholder="🔍 Search recipes..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="w-full p-3 pr-10 border border-slate-200 rounded-full focus:outline-none focus:ring-2 focus:ring-rose-300 shadow-sm"
         />
-        <span className="text-lg font-semibold text-gray-700">Search Recipes</span>
+        {searchTerm && (
+          <button
+            onClick={() => setSearchTerm('')}
+            className="absolute right-3 top-1/2 transform -translate-y-1/2 text-slate-400 hover:text-slate-600"
+          >
+            ✖️
+          </button>
+        )}
       </div>
-      
-      <input
-        type="text"
-        placeholder="🔍 Search by dish name or ingredients..."
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        className="w-full p-4 text-lg border-2 border-pink-300 rounded-full focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent shadow-md"
-      />
     </div>
   )
 }
