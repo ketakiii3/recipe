@@ -122,8 +122,8 @@ export default function Home() {
               <TenorGifEmbed 
                 postId="14041695" 
                 aspectRatio="1" 
-                width="100px"
-                className="rounded-full shadow-lg"
+                width="120px"
+                className="rounded-lg shadow-lg"
               />
             </div>
           </div>
