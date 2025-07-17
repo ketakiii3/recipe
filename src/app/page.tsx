@@ -114,10 +114,10 @@ export default function Home() {
             </div>
             <div className="flex-shrink-0">
               <TenorGifEmbed 
-                postId="12032779589105072005" 
+                postId="17830217625685724880"
                 aspectRatio="1" 
                 width="80px"
-                className="rounded-xl shadow-md"
+                className="rounded-lg shadow-md"
               />
             </div>
           </div>
