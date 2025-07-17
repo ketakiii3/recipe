@@ -109,12 +109,12 @@ export default function Home() {
           </h1>
           <p className="text-slate-600">To store and search my favorite recipes - Try them out</p>
           
-          <div className="mt-6 flex justify-center items-center">
+          <div className="mt-6 flex justify-center items-center gap-6">
             <div className="flex-shrink-0">
               <TenorGifEmbed 
                 postId="11325156789911759579" 
                 aspectRatio="1" 
-                width="120px"
+                width="100px"
                 className="rounded-full shadow-lg"
               />
             </div>
@@ -122,8 +122,8 @@ export default function Home() {
               <TenorGifEmbed 
                 postId="14041695" 
                 aspectRatio="1" 
-                width="80px"
-                className="rounded-full shadow-md"
+                width="100px"
+                className="rounded-full shadow-lg"
               />
             </div>
           </div>
