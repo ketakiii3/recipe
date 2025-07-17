@@ -107,7 +107,21 @@ export default function Home() {
           <h1 className="text-4xl font-bold text-slate-700 mb-2">
             🍳 Ketaki's Recipe App 🍳
           </h1>
-          <p className="text-slate-600">To store and search my favorite recipes - Try them out</p>
+          <div className="flex items-center justify-center gap-4 mb-4">
+            <div className="text-center">
+              <p className="text-slate-600">To store and search my favorite recipes</p>
+              <p className="text-slate-600">And for YOU to try them out</p>
+            </div>
+            <div className="flex-shrink-0">
+              <TenorGifEmbed 
+                postId="8393027935639589957" 
+                aspectRatio="1" 
+                width="60px"
+                className="rounded-full shadow-md"
+              />
+            </div>
+          </div>
+
           
           <div className="mt-6 flex justify-center items-center gap-6">
             <div className="flex-shrink-0">
