@@ -109,25 +109,14 @@ export default function Home() {
           </h1>
           <p className="text-slate-600">Store and search your favorite recipes</p>
           
-          {/* Hero GIFs */}
-          <div className="mt-6 flex justify-center items-center gap-4">
-            {/* Large main GIF */}
+          {/* Hero GIF - Removed the man's GIF, kept only the cute cooking one */}
+          <div className="mt-6 flex justify-center items-center">
             <div className="flex-shrink-0">
               <TenorGifEmbed 
                 postId="11325156789911759579" 
                 aspectRatio="1" 
                 width="120px"
                 className="rounded-full shadow-lg"
-              />
-            </div>
-            
-            {/* Secondary GIF */}
-            <div className="flex-shrink-0">
-              <TenorGifEmbed 
-                postId="14041695" 
-                aspectRatio="1" 
-                width="80px"
-                className="rounded-full shadow-md"
               />
             </div>
           </div>
