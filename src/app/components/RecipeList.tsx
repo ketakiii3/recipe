@@ -1,7 +1,7 @@
-// src/app/components/RecipeList.tsx
 'use client'
 
 import RecipeCard from './RecipeCard'
+import TenorGifEmbed from './TenorGifEmbed'
 
 interface Recipe {
   id: number
@@ -21,11 +21,14 @@ export default function RecipeList({ recipes, onDeleteRecipe, searchTerm }: Reci
   if (recipes.length === 0) {
     return (
       <div className="text-center py-12">
-        <img 
-          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGV0bjBkZjVkM3B3MzFhNGVkNDZkMzFkNGVkNDZkMzFkNGVkNDZkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2Je66zG6mAAZxgqI/giphy.gif" 
-          alt="Cute cartoon cooking panda"
-          className="mx-auto w-32 h-32 rounded-full mb-4"
-        />
+        <div className="mb-6">
+          <TenorGifEmbed 
+            postId="6485465384176810832" 
+            aspectRatio="1" 
+            width="128px"
+            className="mx-auto rounded-full shadow-lg"
+          />
+        </div>
         <p className="text-slate-600 text-lg">
           {searchTerm ? 'No recipes found matching your search' : 'No recipes yet! Add your first recipe above.'}
         </p>
