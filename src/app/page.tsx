@@ -75,11 +75,12 @@ export default function Home() {
   
   // These are the specific GIFs you wanted for the bottom of the page.
   const footerGifs = [
-    'https://media.tenor.com/d4K2Y45b6n4AAAAC/milk-and-mocha-coffee-pour.gif',
-    'https://media.tenor.com/J3qf35K5Gk0AAAAC/milk-mocha-milk-and-mocha-bear.gif',
-    'https://media.tenor.com/6w5b2Gq26a0AAAAC/かみ太.gif',
-    'https://media.tenor.com/xareVfO-8dAAAAAC/cat-eat.gif',
-    'https://media.tenor.com/M6LgO_p3jEsAAAAC/thiqng14.gif',
+    'https://tenor.com/en-GB/view/milk-and-mocha-coffee-pour-gif-14041695',
+    'https://tenor.com/en-GB/view/cooking-gif-2970283722082638544',
+    'https://tenor.com/en-GB/view/chef-pwaty-cooking-pwaty-pwaty-cooking-gif-9272610758073942574',
+    'https://tenor.com/en-GB/view/かみ太-gif-2456354674379385637',
+    'https://tenor.com/en-GB/view/cat-eating-cat-noodle-noodle-cat-cat-eating-noodles-gif-12001693143160973743',
+    'https://tenor.com/en-GB/view/thiqng14-gif-5502216684355563408'
   ]
 
   return (
@@ -91,7 +92,7 @@ export default function Home() {
           {/* This is the huge header GIF you requested. */}
           <div className="mb-4">
             <img 
-              src="https://media.tenor.com/tL8DKtS584AAAAAC/mochi-mochimon.gif"
+              src="https://tenor.com/en-GB/view/mochi-mochimon-mochimons-kawaii-kitty-gif-11325156789911759579"
               alt="Cute mochi cat"
               // I made the GIF larger as you wanted.
               className="mx-auto w-full max-w-sm h-auto rounded-lg shadow-lg"
