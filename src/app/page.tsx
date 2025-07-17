@@ -109,15 +109,15 @@ export default function Home() {
           </h1>
           <div className="flex items-center justify-center gap-4 mb-4">
             <div className="text-center">
-              <p className="text-slate-600">To store and search my favorite recipes</p>
-              <p className="text-slate-600">And for YOU to try them out</p>
+              <p className="text-slate-800">To store and search my favorite recipes</p>
+              <p className="text-slate-800">And for YOU to try them out</p>
             </div>
             <div className="flex-shrink-0">
               <TenorGifEmbed 
-                postId="8393027935639589957" 
+                postId="12032779589105072005" 
                 aspectRatio="1" 
-                width="60px"
-                className="rounded-full shadow-md"
+                width="80px"
+                className="rounded-xl shadow-md"
               />
             </div>
           </div>
