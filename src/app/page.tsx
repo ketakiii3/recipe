@@ -114,7 +114,7 @@ export default function Home() {
               <TenorGifEmbed 
                 postId="11325156789911759579" 
                 aspectRatio="1" 
-                width="100px"
+                width="120px"
                 className="rounded-full shadow-lg"
               />
             </div>
@@ -122,7 +122,7 @@ export default function Home() {
               <TenorGifEmbed 
                 postId="14041695" 
                 aspectRatio="1" 
-                width="120px"
+                width="140px"
                 className="rounded-lg shadow-lg"
               />
             </div>
