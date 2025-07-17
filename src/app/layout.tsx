@@ -3,7 +3,7 @@ import Head from 'next/head'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Cutesy Recipe App 🍳',
+  title: "Ketaki's Cutesy Recipe App 🍳",
   description: 'A minimalist recipe app with cute cooking animals',
 }
 
