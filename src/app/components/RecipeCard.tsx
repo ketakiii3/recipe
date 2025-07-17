@@ -51,7 +51,12 @@ export default function RecipeCard({ recipe, onDelete }: RecipeCardProps) {
     "18442661682198157862",   // birbhaus-cooking-cute
     "20152387",               // chefcat-cat-chef
     "27290245",               // tkthao219-peach-goma
-    "14801096915973119105"    // cat-cooking-let-me-cook
+    "14801096915973119105",    // cat-cooking-let-me-cook
+    "17988320",
+    "5567007998101975297",
+    "17451525928232210672",
+    "2019117850281892669",
+    "20571281"
   ]
 
   return (

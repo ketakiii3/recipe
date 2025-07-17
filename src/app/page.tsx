@@ -105,11 +105,10 @@ export default function Home() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-slate-700 mb-2">
-            🍳 Cutesy Recipe App 🍳
+            🍳 Ketaki's Recipe App 🍳
           </h1>
-          <p className="text-slate-600">Store and search your favorite recipes</p>
+          <p className="text-slate-600">To store and search my favorite recipes - Try them out</p>
           
-          {/* Hero GIF - Removed the man's GIF, kept only the cute cooking one */}
           <div className="mt-6 flex justify-center items-center">
             <div className="flex-shrink-0">
               <TenorGifEmbed 
@@ -119,10 +118,17 @@ export default function Home() {
                 className="rounded-full shadow-lg"
               />
             </div>
+            <div className="flex-shrink-0">
+              <TenorGifEmbed 
+                postId="14041695" 
+                aspectRatio="1" 
+                width="80px"
+                className="rounded-full shadow-md"
+              />
+            </div>
           </div>
         </div>
 
-        {/* Error Message */}
         {error && (
           <div className="bg-red-50 border border-red-200 text-red-600 px-4 py-3 rounded mb-4">
             {error}

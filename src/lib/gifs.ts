@@ -10,6 +10,11 @@ export const cuteAnimalGifs = [
     'https://tenor.com/en-GB/view/birbhaus-cooking-cute-gif-18442661682198157862',
     'https://tenor.com/en-GB/view/cat-cooking-let-me-cook-cat-let-me-cook-let-him-cook-gif-14801096915973119105',
     'https://tenor.com/en-GB/view/chef-pwaty-cooking-pwaty-pwaty-cooking-gif-9272610758073942574',
+    'https://tenor.com/en-GB/view/cooking-cooking-by-pusheen-pusheen-gif-17988320',
+    'https://tenor.com/en-GB/view/food-cooking-penguin-chef-kitchen-gif-5567007998101975297',
+    'https://tenor.com/en-GB/view/hampter-sad-sad-hammy-sad-hamster-sadhamster-gif-17451525928232210672',
+    'https://tenor.com/en-GB/view/cooking-cat-cat-kitchen-cooking-cats-cat-restaurant-gif-2019117850281892669',
+    'https://tenor.com/en-GB/view/karameru-cat-egg-flipping-egg-pan-gif-20571281'
   ];
   
   // This function selects and returns a random GIF from our collection.
