@@ -77,7 +77,6 @@ export default function Home() {
   const footerGifs = [
     'https://tenor.com/en-GB/view/milk-and-mocha-coffee-pour-gif-14041695',
     'https://tenor.com/en-GB/view/cooking-gif-2970283722082638544',
-    'https://tenor.com/en-GB/view/chef-pwaty-cooking-pwaty-pwaty-cooking-gif-9272610758073942574',
     'https://tenor.com/en-GB/view/かみ太-gif-2456354674379385637',
     'https://tenor.com/en-GB/view/cat-eating-cat-noodle-noodle-cat-cat-eating-noodles-gif-12001693143160973743',
     'https://tenor.com/en-GB/view/thiqng14-gif-5502216684355563408'
@@ -98,6 +97,8 @@ export default function Home() {
               className="mx-auto w-full max-w-sm h-auto rounded-lg shadow-lg"
             />
           </div>
+          <div className="tenor-gif-embed" data-postid="11325156789911759579" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/mochi-mochimon-mochimons-kawaii-kitty-gif-11325156789911759579">Mochi Mochimon GIF</a>from <a href="https://tenor.com/search/mochi-gifs">Mochi GIFs</a></div>
+          {/* <script type="text/javascript" async src="https://tenor.com/embed.js"></script> */}
 
           <h1 className="text-4xl font-bold text-slate-700 mb-2">
             🍳 Cutesy Recipe App 🍳

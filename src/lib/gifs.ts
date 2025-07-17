@@ -8,7 +8,8 @@ export const cuteAnimalGifs = [
     'https://tenor.com/en-GB/view/chefcat-cat-chef-cat-kitchen-cat-cooking-cat-in-hat-gif-20152387',
     'https://tenor.com/en-GB/view/tkthao219-peach-goma-gif-27290245',
     'https://tenor.com/en-GB/view/birbhaus-cooking-cute-gif-18442661682198157862',
-    'https://tenor.com/en-GB/view/cat-cooking-let-me-cook-cat-let-me-cook-let-him-cook-gif-14801096915973119105'
+    'https://tenor.com/en-GB/view/cat-cooking-let-me-cook-cat-let-me-cook-let-him-cook-gif-14801096915973119105',
+    'https://tenor.com/en-GB/view/chef-pwaty-cooking-pwaty-pwaty-cooking-gif-9272610758073942574',
   ];
   
   // This function selects and returns a random GIF from our collection.
